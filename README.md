@@ -1,16 +1,45 @@
-# React + Vite
+# PlacePal – Personal Placement Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Problem Statement
+In many colleges, placement platforms are centrally managed and students face multiple challenges:
+- Students cannot track the **types of questions asked** in past interviews.  
+- There is **no visibility of which companies visited** and their roles/packages.  
+- Students cannot access the **experience and guidance from seniors**.  
+- It is difficult to **organize preparation, applications, and interview notes** efficiently.  
+- Students lack a **personal system** to manage all placement-related information in one place.
 
-Currently, two official plugins are available:
+These challenges make it hard for students to **plan, prepare, and succeed in placements** effectively.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Solution
+**PlacePal** is a personal placement companion web app designed to solve these problems.  
+It allows students to:
+- Track **all applied companies** and their status (Applied, Interviewed, Offer, Rejected)  
+- Record **personal interview notes** and preparation insights  
+- Access information about **past interview questions, company trends, and role expectations**  
+- Learn from **senior student experiences and guidance**  
+- Analyze **placement progress and preparation trends** through dashboards and statistics  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This makes the placement journey **organized, personalized, and insightful**, giving students full control over their preparation.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **React** – Frontend development  
+- **JavaScript** – Application logic  
+- **CSS / Tailwind CSS** – Styling and responsive design  
+- (Optional later) **Backend / Firebase / Node.js** – For storing data online  
+
+---
+
+## Project Status
+🚧 Work in progress – currently setting up the project foundation, basic UI, and GitHub repository.  
+Future plans include:
+- Adding dashboards for company trends and analytics  
+- Notes and interview preparation tracking  
+- Sharing experiences and tips from seniors  
+- Exporting reports or tracking multiple placement cycles
+
+---
+
